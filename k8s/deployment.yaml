@@ -17,7 +17,7 @@ spec:
       - name: jfrog-cred
       containers:
       - name:  taxi-booking
-        image: taxiapp1.jfrog.io/taxiapp1-docker-local/taxiapp:1.0.1
+        image: trialqrbazk.jfrog.io/taxiapp1-docker-local/taxiapp:1.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
